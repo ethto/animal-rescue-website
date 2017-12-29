@@ -2,11 +2,15 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  margin: 0;
+}
+
 .banner {
   background-color: #5a7fe0;
 }
 
-h1 {
+.icon-label {
   color: #fff;
 }
 
@@ -16,10 +20,31 @@ h1 {
   color: #fff;
 }
 
-  li {
-    display: inline-block;
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo {
+    text-align: left;
   }
 
-  .header-nav-li {
-    display: inline-block;
+  .nav {
+    text-align: right;
   }
+
+}
