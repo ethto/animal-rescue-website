@@ -8,6 +8,12 @@ body {
 
 .banner {
   background-color: #5a7fe0;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
 
 .icon-label {
@@ -16,7 +22,6 @@ body {
 
 .header-nav-a {
   text-decoration: none;
-  list-style-type: none;
   color: #fff;
 }
 
@@ -26,7 +31,12 @@ li {
 
 a {
   text-decoration: none;
+  list-style-type: none;
   color: #0074d9;
+}
+
+a:hover {
+  color: #bfcff7;
 }
 
 .logo {
@@ -35,6 +45,10 @@ a {
 
 .nav {
   text-align: center;
+}
+
+h1 {
+  color: #5a7fe0;
 }
 
 @media only screen and (min-width: 38em) {
