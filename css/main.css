@@ -52,6 +52,7 @@ a:hover {
 
 h1 {
   color: #5a7fe0;
+  padding-top: 1em;
 }
 
 .homepage-banner {
@@ -60,6 +61,17 @@ h1 {
   background-position: center;
   max-height: 360px;
   min-height: 250px;
+}
+
+.btn {
+  border-color: #5a7fe0;
+  color: #5a7fe0;
+}
+
+.btn:hover {
+  border-color: #5a7fe0;
+  color: #fff;
+  background-color: #5a7fe0;
 }
 
 .footer {
@@ -78,6 +90,13 @@ h1 {
 
   .nav {
     text-align: right;
+  }
+
+  @media only screen and (min-width: 60em) {
+
+  .form {
+    padding: 0 1rem 0 0;
+    border: #000;
   }
 
 }

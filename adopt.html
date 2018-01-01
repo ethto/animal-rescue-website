@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Adopt</title>
+  <title>Loyal Rescue ・ Adopt</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
@@ -43,39 +43,106 @@
 
   <main role="main" id="main" tabindex="0" class="island">
 
-    <h1 class="nina">Adopt</h1>
+    <div class="wrapper">
+      <h1 class="nina">Adopt</h1>
+      <p>We need to know you as well as we can so please provide us with information that is as accurate as possible. Most of these questions do not have "right" or "wrong" answers. They are a way for us to verify that the dog you have selected would be well suited to your home and lifestyle.</p>
+      <p>Please fill in as much information as possible in each tab. If the application is not complete, we cannot consider you for one of our dogs. Adopting a rescued dog is a serious endeavor and should not be done as a "spur of the moment" action.</p>
+    </div>
+
     <section class="pad-t-2 pad-b-2">
       <div class="max-length gutter">
         <h2 class="push-0 exa try">Application Form</h2>
-        <p class="micro push">Enter your information below</p>
+        <p class="micro push-2">*Required Fields</p>
 
         <form class="push-0" method="POST" action="http://formspree.io/estherfjohnson@gmail.com">
-          <div class="push">
-            <label for="name">Name</label>
-            <input id="name" name="name">
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 form push-1-2 milli bold">
+              <label for="name">*Name of the dog you wish to adopt</label>
+              <input id="name" required name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="name">*Your first and last name</label>
+              <input id="name" required name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="name">*Your age</label>
+              <input id="age" required type="number" name="age">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="name">Partner's first and last name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="name">Partner's age</label>
+              <input id="age" type="number" name="age">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="name">*Address</label>
+              <input id="name" required type="address" name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="subject">*Provence</label>
+              <select id="subject" required name="_subject">
+                <option>Ontario</option>
+                <option>British Columbia</option>
+                <option>Alberta</option>
+                <option>Quebec</option>
+                <option>New Brunswick</option>
+                <option>Manitoba</option>
+                <option>Saskatchewan</option>
+                <option>Prince Edward Island</option>
+                <option>Nova Scotia</option>
+                <option>Newfoundland and Labrador</option>
+              </select>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="subject">*City</label>
+              <select id="subject" required name="_subject">
+                <option>Ottawa</option>
+                <option>Toronto</option>
+                <option>Kingston</option>
+              </select>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 form push-1-2 milli">
+              <label for="name">*Postal code</label>
+              <input id="name" maxlength="6" name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 form push-1-2 milli">
+              <label for="email">*Email address</label>
+              <input id="email" required type="email" placeholder="john@smith.com" name="email">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1 xl-1 form push-1-2 milli">
+              <label for="email">Alternative email</label>
+              <input id="email" type="email" placeholder="john@smith.com" name="email">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-2-3 xl-2-3 form push-1-2 milli">
+              <label for="name">*Primary phone</label>
+              <input id="age" required type="number" name="age">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 form push-1-2 milli">
+              <label for="subject">Type</label>
+              <select id="subject" required name="_subject">
+                <option>Home</option>
+                <option>Cell</option>
+                <option>Work</option>
+              </select>
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-2-3 xl-2-3 form push-1-2 milli">
+              <label for="name">Secondary phone</label>
+              <input id="age" type="number" name="age">
+            </div>
+            <div class="unit xs-1 s-1 m-1 l-1-3 xl-1-3 form push-2 milli">
+              <label for="subject">Type</label>
+              <select id="subject" name="_subject">
+                <option>Home</option>
+                <option>Cell</option>
+                <option>Work</option>
+              </select>
+            </div>
           </div>
-          <div class="push">
-            <label for="email">Email</label>
-            <input id="email" type="email" placeholder="john@smith.com" name="email">
-          </div>
-          <div class="push">
-            <label for="username">Username</label>
-            <p class="micro italic push-0">no more than 12 characters</p>
-            <input maxlength="12" id="username" name="username">
-          </div>
-          <div class="push">
-            <label for="password">Password</label>
-            <input type="password" id="password">
-          </div>
-          <div class="push-2">
-            <label for="subject">Country</label>
-            <select id="subject" name="_subject">
-              <option>Canada</option>
-              <option>United States</option>
-            </select>
-          </div>
+
           <div>
-            <button class="create btn btn-light push-2" type="submit">Submit</button>
+            <button class="create btn btn-ghost push-2" type="submit">Submit</button>
           </div>
         </form>
       </div>
