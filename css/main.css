@@ -97,10 +97,6 @@ h1 {
   color: #fff;
 }
 
-.chub {
-  max-width: 30em;
-}
-
 @media only screen and (min-width: 38em) {
 
   .logo {
