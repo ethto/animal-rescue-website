@@ -20,7 +20,7 @@ ul {
 }
 
 .icon-label:hover {
-  color: #8aabe0;
+  color: #bed4f8;
 }
 
 .header-nav-a {
@@ -39,7 +39,8 @@ a {
 }
 
 a:hover {
-  color: #8aabe0;
+  color: #bed4f8;
+  border-bottom: 3px solid #bed4f8;
 }
 
 .logo {
