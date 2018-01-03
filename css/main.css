@@ -43,6 +43,15 @@ a:hover {
   border-bottom: 3px solid #bed4f8;
 }
 
+.logo-link:hover {
+  border: 0;
+}
+
+.logo-link:hover .icon-label {
+  color: #bed4f8;
+  border-bottom: 3px solid #bed4f8;
+}
+
 .logo {
   text-align: center;
 }
@@ -53,7 +62,6 @@ a:hover {
 
 h1 {
   color: #0063b7;
-  padding-top: 1em;
 }
 
 .homepage-banner {
