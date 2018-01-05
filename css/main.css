@@ -60,7 +60,8 @@ a:hover {
   text-align: center;
 }
 
-h1 {
+h1,
+h2 {
   color: #0063b7;
 }
 
@@ -81,6 +82,11 @@ h1 {
   border-color: #0063b7;
   color: #fff;
   background-color: #0063b7;
+}
+
+.rescue-cards {
+  max-width: 55em;
+  margin: auto;
 }
 
 .cards {
