@@ -73,8 +73,7 @@ h2 {
   background-image: url("../images/main-pooch.jpg");
   background-size: cover;
   background-position: center;
-  max-height: 370px;
-  min-height: 300px;
+  height: 15em;
 }
 
 .btn-ghost {
@@ -115,16 +114,15 @@ h2 {
 
 @media only screen and (min-width: 38em) {
 
-  .logo {
-    text-align: left;
-  }
 
-  .nav {
-    text-align: right;
-  }
 
   .cards:last-child {
     margin-left: 0;
+  }
+
+  .homepage-banner {
+    height: 20em;
+
   }
 }
 
@@ -133,6 +131,14 @@ h2 {
   .form {
     padding: 0 1rem 0 0;
     border: #000;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
   }
 
 }
